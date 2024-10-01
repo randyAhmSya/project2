@@ -62,12 +62,11 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
-=======
+
       title: 'Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
->>>>>>> 01e3f62d925312ecf792a7b600a8ac9835ecc062
         ),
         body: Center(child: _buildImageColumn()),
       ),
